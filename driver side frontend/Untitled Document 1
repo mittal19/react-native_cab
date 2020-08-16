@@ -1,0 +1,46 @@
+
+React native version used - 0.62.2
+React version used- 16.11.0
+
+1)Dependencies Used - 
+   
+	"@mapbox/polyline": "^1.1.0",
+    	"@react-native-community/geolocation": "^2.0.2",
+    	"@react-native-community/masked-view": "^0.1.10",
+    	"haversine": "^1.1.1",
+    	"lottie-react-native": "^3.3.2",
+    	"react": "16.11.0",
+   	"react-native": "0.62.2",
+    	"react-native-awesome-alerts": "^1.3.2",
+    	"react-native-datepicker": "^1.7.2",
+    	"react-native-gesture-handler": "^1.6.1",
+    	"react-native-maps": "^0.27.1",
+    	"react-native-motion": "^1.0.5",
+    	"react-native-responsive-screen": "^1.4.1",
+    	"react-native-safe-area-context": "^0.7.3",
+    	"react-native-screens": "^2.7.0",
+    	"react-native-shadow-cards": "^1.0.2",
+    	"react-native-simple-toast": "^1.1.2",
+    	"react-native-splash-screen": "^3.2.0",
+    	"react-native-star-rating": "^1.1.0",
+    	"react-navigation": "^4.3.9",
+    	"react-navigation-stack": "^2.4.0",
+    	"toggle-switch-react-native": "^2.1.0"
+
+2) Resources -
+i)React Native Maps with Google Directions Api from a non changing location- 
+https://medium.com/@ali_oguzhan/react-native-maps-with-google-directions-api-bc716ed7a366
+https://medium.com/@princessjanf/react-native-maps-with-direction-from-current-location-ab1a371732c2
+ii) For real-time location tracking -
+https://medium.com/quick-code/react-native-location-tracking-14ab2c9e2db8
+
+Note- 
+Replace google Maps API with your API.
+Used Geolocation instead of navigation.geolocation (Replaced this 'navigator.geolocation.watchPosition' with 'Geolocation.watchPosition')
+DOnt forget to on location for accessing location.
+(Don't forget to add API and permission to access location in manifest file.)
+This UI is made totaly on static data except for the location & route.
+
+
+
+
